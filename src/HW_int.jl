@@ -14,7 +14,9 @@ module HW_int
 	# in several sub questions
 x = linspace(0,10,100)
 	# demand function
-y = exp(log(2)-0.5log(x)) # computationally cheaper version of the function from [1]
+function y(x) 
+exp(log(2)-0.5log(x)) # computationally cheaper version of the function from [1]
+end
 	# gauss-legendre adjustment factors for map change
 j(x) = 2(0.5x+(3/2)).^(-2)
 	# eqm condition for question 2
@@ -148,6 +150,7 @@ xlabel("Number of iterations")
 title("Convergence of Monte-Carlo (n = 100 points)")
 print("")
 println("")
+	
 	end
 
 

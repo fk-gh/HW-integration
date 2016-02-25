@@ -1,6 +1,9 @@
 # repeatedly send this to the REPL
 # to update your code
 
+cd("/users/felipekup/Documents/Github_practice/HW-integration")
+
+
 include("src/HW_int.jl")
 
 # run your tests
